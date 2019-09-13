@@ -80,3 +80,5 @@ staticman:
   branch: master
 
 comments_locked: false
+
+theme: minima
