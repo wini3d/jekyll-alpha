@@ -23,7 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
   guardian, a watchful protector. A dark knight." - Lt. James Gordon
 
 # baseurl is the subpath of your site, e.g. /blog
-baseurl: ""
+baseurl: "/jekyll-alpha"
 
 # This is the base URL for your website e.g. http://thebatman.com
 url: ""
@@ -73,3 +73,5 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+comments_locked: false
