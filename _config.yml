@@ -74,4 +74,5 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+repository: wini3d/jekyll-alpha
 comments_locked: false
