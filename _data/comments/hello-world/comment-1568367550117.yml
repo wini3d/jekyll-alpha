@@ -1,8 +1,8 @@
 _id: 5671daf0-d60a-11e9-9fda-bf827141d065
-_parent: /jekyll-alpha/blog/personal/2017/08/10/hello-world.html
+#_parent: /jekyll-alpha/blog/personal/2017/08/10/hello-world.html
 name: win
 email: 699f9090e765d274ceb9edb61c61e6e7
 url: ''
 message: nested test
-replying_to: d2a3f340-d5f3-11e9-ac26-8b4f1920d0e6
+_parent: d2a3f340-d5f3-11e9-ac26-8b4f1920d0e6
 date: 1568367550
