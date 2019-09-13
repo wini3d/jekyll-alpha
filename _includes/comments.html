@@ -10,10 +10,10 @@
       
       
 
-    {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1]._parent == comment[1]._id' %}
+    {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1]._replying_to == comment[1]._id' %}
     {% for comment in comments %}
       {% assign id          = comment[1]._id %}
-      {% assign parent      = comment[1]._parent %}
+      {% assign parent      = comment[1]._replying_to %}
       {% assign avatar      = comment[1].avatar %}
       {% assign email       = comment[1].email %}
       {% assign name        = comment[1].name %}
