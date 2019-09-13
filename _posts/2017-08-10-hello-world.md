@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2017-08-10 22:00:00
 categories: blog personal
+comments: true
 ---
 
 Hello World! Bruce Wayne, errr...Batman here. Welcome to my new site!
